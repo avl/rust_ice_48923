@@ -1,7 +1,7 @@
 [package]
 name = "fractal"
 version = "0.1.0"
-authors = ["Anders Musikka <you@example.com>"]
+authors = ["Anders Musikka <anders@andersmusikka.se>"]
 
 [dependencies]
 serde="1.0.28"
