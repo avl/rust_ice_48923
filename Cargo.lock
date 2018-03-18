@@ -2,7 +2,7 @@
 name = "fractal"
 version = "0.1.0"
 dependencies = [
- "savefile-derive 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "savefile-derive 0.2.5",
  "serde 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -26,7 +26,6 @@ dependencies = [
 [[package]]
 name = "savefile-derive"
 version = "0.2.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "proc-macro2 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "quote 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -76,7 +75,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [metadata]
 "checksum proc-macro2 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "cd07deb3c6d1d9ff827999c7f9b04cdfd66b1b17ae508e14fe47b620f2282ae0"
 "checksum quote 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = "1eca14c727ad12702eb4b6bfb5a232287dcf8385cb8ca83a3eeaf6519c44c408"
-"checksum savefile-derive 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)" = "382c23c581f6f0edde192ad86b46ee7123e8a56fc6dea1a07651ffdf42a25f3f"
 "checksum serde 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" = "4fe95aa0d46f04ce5c3a88bdcd4114ecd6144ed0b2725ebca2f1127744357807"
 "checksum serde_derive 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" = "23b163a6ce7e1aa897919f9d8e40bd1f8a6f95342ed57727ae31387a01a7a356"
 "checksum serde_derive_internals 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)" = "370aa477297975243dc914d0b0e1234927520ec311de507a560fbd1c80f7ab8c"

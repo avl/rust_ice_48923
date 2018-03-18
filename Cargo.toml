@@ -6,5 +6,6 @@ authors = ["Anders Musikka <anders@andersmusikka.se>"]
 [dependencies]
 serde="1.0.28"
 serde_derive="1.0.28"
-savefile-derive="0.2.5"
+savefile-derive= { path = "savefile-derive" }
+
 

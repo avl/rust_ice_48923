@@ -1,0 +1,26 @@
+[package]
+name = "savefile-derive"
+version = "0.2.5"
+authors = ["Anders Musikka <anders@andersmusikka.se>"]
+
+description = "Custom derive macros for savefile crate - simple, convenient, fast, versioned, binary serialization/deserialization library."
+
+readme = "../README.md"
+
+keywords = ["serialization", "deserialization"]
+
+categories = ["encoding"]
+
+license = "MIT/Apache-2.0"
+
+travis-ci = { repository = "avl/savefile", branch = "master" }
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "0.4"
+syn = "0.12"
+proc-macro2 = { version = "0.2", features = ["nightly"] }
+
+
